@@ -1390,6 +1390,10 @@ export interface StatsOptions {
 	 */
 	reasons?: boolean;
 	/**
+	 * add information about runtime modules
+	 */
+	runtime?: boolean;
+	/**
 	 * add the source code of modules
 	 */
 	source?: boolean;
